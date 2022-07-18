@@ -1,0 +1,8 @@
+pyramid==1.10
+alembic
+Paste
+jinja2
+pyramid_jinja2
+pydevd
+sqlalchemy
+pymysql

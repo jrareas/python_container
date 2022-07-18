@@ -1,0 +1,13 @@
+version: '2'
+services:
+   pyramid:
+     build:
+        context: ./
+        dockerfile: ./Dockerfile 
+     ports:
+        - '81:81'
+     volumes:
+       - './docker/base/:/app'
+     environment:
+       - PATHS_FROM_ECLIPSE_TO_PYTHON=[["/Users/jareas/Developer/ja-docker-images/python_container/docker/base","/app"]]
+         

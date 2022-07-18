@@ -1,0 +1,1 @@
+FROM jrareas/python_app_base
