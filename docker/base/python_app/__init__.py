@@ -10,6 +10,7 @@ def main(global_config, **settings):
     with Configurator(settings=settings) as config:
         config.include('pyramid_jinja2')
         config.include('.routes')
+        config.include('.routes_api', route_prefix="/api")
         config.scan()
     return config.make_wsgi_app()
 

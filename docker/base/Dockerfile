@@ -10,3 +10,9 @@ RUN apt-get update -y && \
 RUN apt -y update
 RUN apt -y install nodejs
 RUN apt -y install npm
+
+COPY . /app
+
+WORKDIR /app
+
+RUN pip3 install -r requirements.txt
