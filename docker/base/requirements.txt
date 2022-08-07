@@ -6,3 +6,4 @@ pyramid_jinja2
 pydevd
 sqlalchemy
 pymysql
+geoip2
