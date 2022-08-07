@@ -10,5 +10,4 @@ services:
      volumes:
        - './docker/base/:/app'
      environment:
-       - PATHS_FROM_ECLIPSE_TO_PYTHON=[["/Users/jareas/Developer/ja-docker-images/python_container/docker/base","/app"]]
-         
+       - PATHS_FROM_ECLIPSE_TO_PYTHON=[["C:/Users/diogo/Developer/python/python_container/docker/base","/app"],["/Users/jareas/Developer/ja-docker-images/python_container/docker/base","/app"]]
